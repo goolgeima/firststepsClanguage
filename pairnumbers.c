@@ -4,7 +4,7 @@ int main(){
     int rest;
     while(numbers<20){
         rest=(numbers % divisor);
-        if(resto==0){
+        if(rest==0){
         printf("%d\n", numbers);
     }
     numbers++;
