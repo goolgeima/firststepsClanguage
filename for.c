@@ -1,12 +1,12 @@
 int main(){
-    int n, num, soma, i;
+    int n, num, sum, i;
     i=0;
-    soma=0;
-    printf("Insira quantos numeros serao somados\n");
+    sum=0;
+    printf("How many numbers you want to sum\n");
     scanf("%d", &n);
     for(i=0; i<n; i++){
         scanf("%d", &num);
-        soma+=num;
+        sum+=num;
     }
-    printf("A soma eh %d", soma);
+    printf("The sum is %d", sum);
 }
