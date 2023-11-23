@@ -1,12 +1,12 @@
 int main(){
-    int n, i, num, soma=0;
-printf("Entre com a quantidade: ");
+    int n, i, num, sum=0;
+printf("Type the quantity: ");
 scanf("%d",&n);
 i = 0;
 while(i<n){
 scanf("%d",&num);
-soma += num; // soma = soma + num;
-i++; // i = i + 1;
+sum += num;
+i++; 
 }
-printf("Soma: %d\n",soma);
+printf("Sum: %d\n",sum);
 }
